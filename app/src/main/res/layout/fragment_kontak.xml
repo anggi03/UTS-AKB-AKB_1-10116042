@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffcc"
+    android:layout_marginTop="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="208dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Data Diri"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ic_whatsapp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/contact"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/wa" />
+
+        <TextView
+            android:id="@+id/NoHp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/ic_whatsapp"
+            android:text="+6287869778594"
+            android:textColor="#2d3436" />
+
+        <ImageView
+            android:id="@+id/ic_email"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/ic_whatsapp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/email" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NoHp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ic_email"
+            android:text="mynameanggi03@gmail.com"
+            android:textColor="#7080C9"
+            android:textColorHighlight="#2d3436" />
+
+        <ImageView
+            android:id="@+id/ic_instagram"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/ic_email"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ig"
+
+            />
+
+        <TextView
+            android:id="@+id/ig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ic_instagram"
+            android:text="anggiii.03"
+            android:textColor="#2d3436" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

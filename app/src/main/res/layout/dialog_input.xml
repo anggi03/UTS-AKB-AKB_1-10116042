@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffcc">
+
+    <EditText
+        android:id="@+id/edt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/edt_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nim" />
+
+    <EditText
+        android:id="@+id/edt_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelas" />
+
+    <EditText
+        android:id="@+id/edt_telpon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telpon" />
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edt_sosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sosmed" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btn_di_simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/btn_di_cancel"
+            android:layout_toStartOf="@+id/btn_di_cancel"
+            android:text="Simpan"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_di_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Cancel"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+</LinearLayout>
